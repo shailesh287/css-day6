@@ -1,0 +1,47 @@
+.box {
+    border: 2px solid rgb(129, 6, 119);
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    background-color: aqua;
+    box-shadow: 5px 5px 10px rgb(26, 25, 25);
+    text-shadow: 3px 3px 5px rgb(23, 9, 146);
+    font-size: 30px;
+  }
+  
+  .box2 {
+    border: 5px solid blue;
+    height: 250px;
+    width: 300px;
+    background-color: hotpink;
+    text-align: center;
+    transition: transform 5s;
+  }
+  .box2:hover {
+    transform: rotate(360deg);
+  }
+  
+  .box3 {
+    border: 4ps solid hotpink;
+    background-color: aqua;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    transition: transform 5s;
+  }
+  .box3:hover {
+    transform: translate(500px);
+  }
+  
+  .box4 {
+    border: 4px solid orangered;
+    background-color: wheat;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    transition: width 2s, height 2s, ease 2s;
+  }
+  
+  .box4:hover {
+    width: 400px;
+  }
